@@ -12,7 +12,9 @@ class Transport:
 
     def isInArea(self, pos_x, pos_y, length, width) -> bool:
         x, y = self.coordinates
-        return pos_y <= y <= pos_y + width and pos_x <= x <= pos_x + length
+        if pos_y <= y <= pos_y + width and pos_x <= x <= pos_x + length:
+            return True
+        return False
 
     @property
     def coordinates(self):
