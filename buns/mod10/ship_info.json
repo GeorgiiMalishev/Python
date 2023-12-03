@@ -1,0 +1,35 @@
+{
+    "name": "Millennium Falcon",
+    "max_speed": "1050",
+    "class": "Light freighter",
+    "pilots": [
+        {
+            "name": "Chewbacca",
+            "height": "228",
+            "mass": "112",
+            "homeworld_url": "https://swapi.dev/api/planets/14/",
+            "homeworld_name": "Kashyyyk"
+        },
+        {
+            "name": "Han Solo",
+            "height": "180",
+            "mass": "80",
+            "homeworld_url": "https://swapi.dev/api/planets/22/",
+            "homeworld_name": "Corellia"
+        },
+        {
+            "name": "Lando Calrissian",
+            "height": "177",
+            "mass": "79",
+            "homeworld_url": "https://swapi.dev/api/planets/30/",
+            "homeworld_name": "Socorro"
+        },
+        {
+            "name": "Nien Nunb",
+            "height": "160",
+            "mass": "68",
+            "homeworld_url": "https://swapi.dev/api/planets/33/",
+            "homeworld_name": "Sullust"
+        }
+    ]
+}
